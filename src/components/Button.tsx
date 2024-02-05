@@ -7,7 +7,7 @@ interface IButton {
 
 const Button = ({title, type}: IButton) => {
   return (
-    <button className='w-full py-3 font-medium text-black rounded-md bg-primary' type={type}>
+    <button className='w-full py-3 font-medium text-black transition duration-300 rounded-md bg-primary hover:text-primary hover:bg-black' type={type}>
         <span>
             {title}
         </span>
